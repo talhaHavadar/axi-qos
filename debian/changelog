@@ -1,5 +1,6 @@
-xlnx-axi-qos (2023.2-0ubuntu1) UNRELEASED; urgency=low
+xlnx-axi-qos (2023.2-0ubuntu1) noble; urgency=medium
 
   * Initial release to private archive
+    - debian: update gbp.conf to change debian-branch to ubuntu/noble
 
- -- Talha Can Havadar <talha.can.havadar@canonical.com>  Wed, 20 Mar 2024 16:37:02 +0900
+ -- Talha Can Havadar <talha.can.havadar@canonical.com>  Wed, 20 Mar 2024 16:53:03 +0900
