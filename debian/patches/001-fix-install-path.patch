@@ -1,6 +1,6 @@
 Description: Fix the install path of the binary
 Author: Talha Can Havadar <talha.can.havadar@canonical.com>
-Forwarded: no
+Forwarded: https://github.com/Xilinx/axi-qos/pull/1
 Last-Update: 2024-03-20
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
