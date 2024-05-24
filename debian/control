@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Talha Can Havadar <talha.can.havadar@canonical.com>
 Build-Depends: cmake, debhelper-compat (= 13)
-Standards-Version: 4.5.0
+Standards-Version: 4.6.2
 Homepage: https://github.com/Xilinx/axi-qos
 
 Package: xlnx-axi-qos
