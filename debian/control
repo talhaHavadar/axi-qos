@@ -5,6 +5,7 @@ Maintainer: Talha Can Havadar <talha.can.havadar@canonical.com>
 Build-Depends: cmake, debhelper-compat (= 13)
 Standards-Version: 4.6.2
 Homepage: https://github.com/Xilinx/axi-qos
+Rules-Requires-Root: no
 
 Package: xlnx-axi-qos
 Architecture: any
