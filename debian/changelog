@@ -1,23 +1,12 @@
-xlnx-axi-qos (2023.2-0ubuntu3) oracular; urgency=medium
+xlnx-axi-qos (2023.2-0ubuntu3.22.04.1) noble; urgency=medium
 
-  * Initial release to Ubuntu archive (LP: #2067254)
+  * Backport from oracular
+    - d/control: add Rules-Requires-Root: no to fix lintian warnings
+    - d/control: update binary package description
+    - d/control: update Standards-Version to 4.6.2
+    - d/p/001-fix-install-path.patch: update forwarded field with PR url
 
- -- Talha Can Havadar <talha.can.havadar@canonical.com>  Tue, 28 May 2024 10:47:33 +0200
-
-xlnx-axi-qos (2023.2-0ubuntu2) oracular; urgency=medium
-
-  * d/control: add Rules-Requires-Root: no to fix lintian warnings
-
- -- Talha Can Havadar <talha.can.havadar@canonical.com>  Mon, 27 May 2024 10:34:17 +0200
-
-xlnx-axi-qos (2023.2-0ubuntu1.24.10.1) oracular; urgency=medium
-
-  * d/control: update binary package description
-  * d/gbp.conf: change debian branch to ubuntu/oracular
-  * d/control: update Standards-Version to 4.6.2
-  * d/p/001-fix-install-path.patch: update forwarded field with PR url
-
- -- Talha Can Havadar <talha.can.havadar@canonical.com>  Fri, 24 May 2024 12:03:07 +0200
+ -- Talha Can Havadar <talha.can.havadar@canonical.com>  Wed, 05 Jun 2024 16:39:37 +0200
 
 xlnx-axi-qos (2023.2-0ubuntu1) noble; urgency=medium
 
