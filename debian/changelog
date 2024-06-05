@@ -1,3 +1,9 @@
+xlnx-axi-qos (2023.2-0ubuntu3.22.04.2) noble; urgency=medium
+
+  * d/control: add breaks and replaces for xmutil << 1:1.2.1
+
+ -- Talha Can Havadar <talha.can.havadar@canonical.com>  Wed, 05 Jun 2024 18:26:00 +0200
+
 xlnx-axi-qos (2023.2-0ubuntu3.22.04.1) noble; urgency=medium
 
   * Backport from oracular
