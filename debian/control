@@ -11,6 +11,8 @@ Package: xlnx-axi-qos
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: xmutil (<< 1:1.2.1)
+Replaces: xmutil (<< 1:1.2.1)
 Description: applications to set QOS value of AXI ports on ZynqMP platforms
  This Debian binary package enables users to manipulate QOS values of
  AXI ports on ZynqMP platforms including KD240, KV260 and KR260 board families
